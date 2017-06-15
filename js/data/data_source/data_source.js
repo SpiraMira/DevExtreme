@@ -395,12 +395,12 @@ var DataSource = Class.inherit({
     /**
     * @name DataSourceMethods_pageIndex
     * @publicName pageIndex()
-    * @return numeric
+    * @return number
     */
     /**
     * @name DataSourceMethods_pageIndex
     * @publicName pageIndex(newIndex)
-    * @param1 newIndex:numeric
+    * @param1 newIndex:number
     */
     pageIndex: function(newIndex) {
         if(!__isNumber(newIndex)) {
@@ -435,12 +435,12 @@ var DataSource = Class.inherit({
     /**
     * @name DataSourceMethods_pageSize
     * @publicName pageSize()
-    * @return numeric
+    * @return number
     */
     /**
     * @name DataSourceMethods_pageSize
     * @publicName pageSize(value)
-    * @param1 value:numeric
+    * @param1 value:number
     */
     pageSize: function(value) {
         if(!__isNumber(value)) {
@@ -617,7 +617,7 @@ var DataSource = Class.inherit({
     /**
     * @name DataSourceMethods_totalCount
     * @publicName totalCount()
-    * @return numeric
+    * @return number
     */
     totalCount: function() {
         return this._totalCount;

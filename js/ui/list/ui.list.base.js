@@ -1113,7 +1113,7 @@ var ListBase = CollectionWidget.inherit({
     /**
     * @name dxListMethods_scrollTop
     * @publicName scrollTop()
-    * @return numeric
+    * @return number
     */
     scrollTop: function() {
         return this._scrollView.scrollOffset().top;
@@ -1122,7 +1122,7 @@ var ListBase = CollectionWidget.inherit({
     /**
     * @name dxListMethods_clientHeight
     * @publicName clientHeight()
-    * @return numeric
+    * @return number
     */
     clientHeight: function() {
         return this._scrollView.clientHeight();
@@ -1131,7 +1131,7 @@ var ListBase = CollectionWidget.inherit({
     /**
     * @name dxListMethods_scrollHeight
     * @publicName scrollHeight()
-    * @return numeric
+    * @return number
     */
     scrollHeight: function() {
         return this._scrollView.scrollHeight();
@@ -1140,7 +1140,7 @@ var ListBase = CollectionWidget.inherit({
     /**
     * @name dxListMethods_scrollBy
     * @publicName scrollBy(distance)
-    * @param1 distance:numeric
+    * @param1 distance:number
     */
     scrollBy: function(distance) {
         this._scrollView.scrollBy(distance);
@@ -1149,7 +1149,7 @@ var ListBase = CollectionWidget.inherit({
     /**
     * @name dxListMethods_scrollTo
     * @publicName scrollTo(location)
-    * @param1 location:numeric
+    * @param1 location:number
     */
     scrollTo: function(location) {
         this._scrollView.scrollTo(location);

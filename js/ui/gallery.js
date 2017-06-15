@@ -1149,7 +1149,7 @@ var Gallery = CollectionWidget.inherit({
     /**
     * @name dxgallerymethods_goToItem
     * @publicName goToItem(itemIndex, animation)
-    * @param1 itemIndex:numeric
+    * @param1 itemIndex:number
     * @param2 animation:boolean
     * @return Promise
     */

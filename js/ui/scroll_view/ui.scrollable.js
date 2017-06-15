@@ -531,7 +531,7 @@ var Scrollable = DOMComponent.inherit({
     /**
     * @name dxscrollablemethods_scrollTop
     * @publicName scrollTop()
-    * @return numeric
+    * @return number
     */
     scrollTop: function() {
         return this.scrollOffset().top;
@@ -540,7 +540,7 @@ var Scrollable = DOMComponent.inherit({
     /**
     * @name dxscrollablemethods_scrollLeft
     * @publicName scrollLeft()
-    * @return numeric
+    * @return number
     */
     scrollLeft: function() {
         return this.scrollOffset().left;
@@ -549,7 +549,7 @@ var Scrollable = DOMComponent.inherit({
     /**
     * @name dxscrollablemethods_clientHeight
     * @publicName clientHeight()
-    * @return numeric
+    * @return number
     */
     clientHeight: function() {
         return this._$container.height();
@@ -558,7 +558,7 @@ var Scrollable = DOMComponent.inherit({
     /**
     * @name dxscrollablemethods_scrollHeight
     * @publicName scrollHeight()
-    * @return numeric
+    * @return number
     */
     scrollHeight: function() {
         return this.content().outerHeight() - 2 * this._strategy.verticalOffset();
@@ -567,7 +567,7 @@ var Scrollable = DOMComponent.inherit({
     /**
     * @name dxscrollablemethods_clientWidth
     * @publicName clientWidth()
-    * @return numeric
+    * @return number
     */
     clientWidth: function() {
         return this._$container.width();
@@ -576,7 +576,7 @@ var Scrollable = DOMComponent.inherit({
     /**
     * @name dxscrollablemethods_scrollWidth
     * @publicName scrollWidth()
-    * @return numeric
+    * @return number
     */
     scrollWidth: function() {
         return this.content().outerWidth();
@@ -596,7 +596,7 @@ var Scrollable = DOMComponent.inherit({
     /**
     * @name dxscrollablemethods_scrollBy
     * @publicName scrollBy(distance)
-    * @param1 distance:numeric
+    * @param1 distance:number
     */
     /**
     * @name dxscrollablemethods_scrollBy
@@ -617,7 +617,7 @@ var Scrollable = DOMComponent.inherit({
     /**
     * @name dxscrollablemethods_scrollTo
     * @publicName scrollTo(targetLocation)
-    * @param1 targetLocation:numeric
+    * @param1 targetLocation:number
     */
     /**
     * @name dxscrollablemethods_scrollTo

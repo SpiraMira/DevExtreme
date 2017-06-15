@@ -574,7 +574,7 @@ var TileView = CollectionWidget.inherit({
     /**
     * @name dxtileviewmethods_scrollPosition
     * @publicName scrollPosition()
-    * @return numeric
+    * @return number
     */
     scrollPosition: function() {
         return this._scrollView.scrollOffset()[this._config.mainPosition];

@@ -823,7 +823,7 @@ module.exports = {
                 /**
                  * @name dxDataGridMethods_pageCount
                  * @publicName pageCount()
-                 * @return numeric
+                 * @return number
                  */
                 pageCount: function() {
                     return this._dataSource ? this._dataSource.pageCount() : 1;
@@ -874,7 +874,7 @@ module.exports = {
                 /**
                 * @name GridBaseMethods_getKeyByRowIndex
                 * @publicName getKeyByRowIndex(rowIndex)
-                * @param1 rowIndex:numeric
+                * @param1 rowIndex:number
                 * @return any
                 */
                 getKeyByRowIndex: function(rowIndex) {
@@ -887,7 +887,7 @@ module.exports = {
                 * @name GridBaseMethods_getRowIndexByKey
                 * @publicName getRowIndexByKey(key)
                 * @param1 key:object|string|number
-                * @return numeric
+                * @return number
                 */
                 getRowIndexByKey: function(key) {
                     return gridCoreUtils.getIndexByKey(key, this.items());
@@ -954,12 +954,12 @@ module.exports = {
                 /**
                 * @name dxDataGridMethods_pageIndex
                 * @publicName pageIndex()
-                * @return numeric
+                * @return number
                 */
                 /**
                 * @name dxDataGridMethods_pageIndex
                 * @publicName pageIndex(newIndex)
-                * @param1 newIndex:numeric
+                * @param1 newIndex:number
                 */
                 pageIndex: function(value) {
                     var that = this,
@@ -983,12 +983,12 @@ module.exports = {
                 /**
                 * @name dxDataGridMethods_pageSize
                 * @publicName pageSize()
-                * @return numeric
+                * @return number
                 */
                 /**
                 * @name dxDataGridMethods_pageSize
                 * @publicName pageSize(value)
-                * @param1 value:numeric
+                * @param1 value:number
                 */
                 pageSize: function(value) {
                     var that = this,
@@ -1080,7 +1080,7 @@ module.exports = {
             /**
             * @name dxDataGridMethods_totalCount
             * @publicName totalCount()
-            * @return numeric
+            * @return number
             */
             gridCoreUtils.proxyMethod(members, "totalCount", 0);
 

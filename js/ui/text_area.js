@@ -48,7 +48,7 @@ var TextArea = TextBox.inherit({
             /**
             * @name dxTextAreaOptions_minHeight
             * @publicName minHeight
-            * @type numeric|string
+            * @type number|string
             * @default undefined
             */
             minHeight: undefined,
@@ -56,7 +56,7 @@ var TextArea = TextBox.inherit({
             /**
             * @name dxTextAreaOptions_maxHeight
             * @publicName maxHeight
-            * @type numeric|string
+            * @type number|string
             * @default undefined
             */
             maxHeight: undefined,

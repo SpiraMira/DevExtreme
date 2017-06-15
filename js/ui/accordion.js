@@ -455,7 +455,7 @@ var Accordion = CollectionWidget.inherit({
     /**
     * @name dxAccordionMethods_expandItem
     * @publicName expandItem(index)
-    * @param1 index:numeric
+    * @param1 index:number
     * @return Promise
     */
     expandItem: function(index) {
@@ -469,7 +469,7 @@ var Accordion = CollectionWidget.inherit({
     /**
     * @name dxAccordionMethods_collapseItem
     * @publicName collapseItem(index)
-    * @param1 index:numeric
+    * @param1 index:number
     * @return Promise
     */
     collapseItem: function(index) {
